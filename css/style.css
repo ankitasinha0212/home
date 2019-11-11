@@ -1,0 +1,420 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family:'AkrutiOfficeBharatiCond';
+    src: url('..icon-7-stroke/font/BARCON_N.html');
+src:url(../icon-7-stroke/fonts/ColabBol.otf);
+src:url(../icon-7-stroke/fonts/ColabLig.otf);
+src:url(../icon-7-stroke/fonts/ColabMed.otf);
+src:url(../icon-7-stroke/fonts/ColabReg.otf);
+src:url(../icon-7-stroke/fonts/ColabThi.otf);
+	
+	}
+
+body{
+margin:0px;
+font-family:AkrutiOfficeBharatiCond;
+color:#847d7d;
+font-size:12px;
+
+}
+h1{
+font-size: 36px;
+color: #333333;
+letter-spacing: 2px;
+margin-bottom: 2px;
+font-weight: bold;
+
+}
+h2{
+font-size: 40px;
+color: #333333;
+font-weight: bold;
+}
+h3{
+font-size: 25px;
+color: #333;
+letter-spacing: 0px;
+font-weight: bold;
+}
+h4{
+font-size: 18px;
+color: #333;
+letter-spacing: 0px;
+font-weight: bold;
+margin-top: -3px;
+margin-bottom: 1px;
+}
+.ft{
+font-size: 18px;
+color:#FF9900;
+margin-top: 0px;
+}
+.fa{
+font-size:25px !important;
+color:#006bff;
+text-align:left;
+float:left;
+text-decoration:none;
+}
+a.fa:hover{
+font-size:12px;
+color:#ACACAC;
+text-align:left;
+float:left;
+text-decoration:none;
+}
+.fc{
+font-size: 19px;
+color: #484745;
+margin-top: -1px;
+color: #ff5100;
+}
+.fp{
+font-size:25px;
+color: #484745;
+color: #ff5100;
+}
+.pe{
+font-size: 15px;
+color:#333333;
+}
+.button{
+background-color: #c50f09; 
+
+height:38px;
+}
+#cssmenu ul,
+#cssmenu li,
+#cssmenu span,
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  
+  font-weight:500;
+}
+#cssmenu {
+  line-height: 1;
+  background:#c50f09;
+   border-radius: 0px 0px 0 0;
+  -moz-border-radius: 0px 0px 0 0;
+  -webkit-border-radius: 0px 0px 0 0;
+  border-bottom: 0px solid #c50f09;
+  width: auto;
+  float:right;
+  margin-right: -60px;
+  
+}
+#cssmenu:after,
+#cssmenu ul:after {
+  content: '';
+  display: block;
+  clear: both;
+   font-size:15px;
+   
+}
+#cssmenu a {
+ background:#e70317;
+  color: #ffffff;
+  display: block;
+  font-family: AkrutiOfficeBharatiCond;
+  padding: 17px 8px;
+text-decoration: none;
+
+border-right: solid 1px #da1b04;
+
+}
+#cssmenu ul {
+  list-style: none;
+  
+ 
+}
+#cssmenu > ul > li {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding-left:0px;
+
+}
+#cssmenu.align-center {
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  float: none;
+}
+#cssmenu.align-center ul ul {
+  text-align: left;
+}
+#cssmenu.align-right > ul {
+  float: right;
+}
+#cssmenu.align-right ul ul {
+  text-align: right;
+}
+#cssmenu > ul > li > a {
+  color:#FFF303;
+  font-size: 15px;
+}
+#cssmenu > ul > li:hover:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 4px solid #c50f09;
+  margin-left: -10px;
+  background:#c50f09;
+  
+}
+#cssmenu > ul > li:first-child > a {
+  border-radius: 0px 0 0 0;
+  -moz-border-radius: 0px 0 0 0;
+  -webkit-border-radius: 0px 0 0 0;
+}
+#cssmenu.align-right > ul > li:first-child > a,
+#cssmenu.align-center > ul > li:first-child > a {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+}
+#cssmenu.align-right > ul > li:last-child > a {
+  border-radius: 0 0px 0 0;
+  -moz-border-radius: 0 0px 0 0;
+  -webkit-border-radius: 0 0px 0 0;
+  
+}
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li:hover > a {
+  color:#FFFFFF;
+  box-shadow: inset 0 0 0px #c50f09;
+  -moz-box-shadow: inset 0 0 0px #c50f09;
+  -webkit-box-shadow: inset 0 0 0px #c50f09;
+  background:#c50f09;
+   border-radius: 0px 0px 0 0;
+  -moz-border-radius: 0px 0px 0 0;
+  -webkit-border-radius: 0px 0px 0 0;
+
+ 
+}
+#cssmenu .has-sub {
+  z-index: 10;
+  
+}
+#cssmenu .has-sub:hover > ul {
+  display: block;
+  }
+  
+#cssmenu .has-sub ul {
+  display: none;
+  position: absolute;
+  width: 230px;
+  top: 100%;
+  left: 0;
+  
+  
+}
+#cssmenu.align-right .has-sub ul {
+  left: auto;
+  right: 0;
+  
+}
+#cssmenu .has-sub ul li {
+  *margin-bottom: -1px;
+   border-bottom: 1px solid #c50f09;
+}
+#cssmenu .has-sub ul li a {
+  background:url(../image/bj-tranc.png) repeat;
+ 
+  font-size: 14px;
+  filter: none;
+  display: block;
+  line-height: 120%;
+  padding: 10px;
+  color: #ffffff;
+  margin-top: 0px;
+  
+}
+#cssmenu .has-sub ul li:hover a {
+  background: #f3120b;
+}
+#cssmenu ul ul li:hover > a {
+  color:#FFFFFF;
+}
+#cssmenu .has-sub .has-sub:hover > ul {
+  display: block;
+}
+#cssmenu .has-sub .has-sub ul {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+#cssmenu.align-right .has-sub .has-sub ul,
+#cssmenu.align-right ul ul ul {
+  left: auto;
+  right: 100%;
+}
+#cssmenu .has-sub .has-sub ul li a {
+  background:url(../image/bj-tranc.png) repeat;
+ }
+#cssmenu .has-sub .has-sub ul li a:hover {
+  background: #f3120b;
+}
+#cssmenu ul ul li.last > a,
+#cssmenu ul ul li:last-child > a,
+#cssmenu ul ul ul li.last > a,
+#cssmenu ul ul ul li:last-child > a,
+#cssmenu .has-sub ul li:last-child > a,
+#cssmenu .has-sub ul li.last > a {
+  border-bottom: 0;
+}
+.name_head{
+font-size: 14px;
+font-weight: 600;
+letter-spacing: 2px;
+color: #515151;
+}
+.detail{
+font-size: 14px;
+letter-spacing: 1px;
+color: #515151;
+}
+
+.footer_buuton{
+font-size:19px;
+color:#FFFFFF;
+}
+.top_header{
+font-size:14px;
+color:#333333;
+letter-spacing: 1px;
+}
+.head-right-but{
+font-size: 14px;
+color: #FF7E02;
+text-decoration:none;
+}
+a.head-right-but:hover{
+color:#333333;
+font-size: 14px;
+text-decoration:none;
+}
+.email_id{
+font-size: 15px;
+margin-left: 5px;
+color: black;
+
+font-family:AkrutiOfficeBharatiCond;
+}
+.mob{
+font-size: 15px;
+margin-left: 5px;
+color: black;
+
+font-family:AkrutiOfficeBharatiCond;
+}
+.name_hed{
+font-size: 16px;
+color: #363636;
+font-weight: bold;
+}
+.design{
+font-size: 14px;
+color:#595959;
+
+}
+p{
+font-size: 20px;
+color: #444444;
+text-align: justify;
+line-height: 25px;
+}
+.vission_head{
+font-size:24px;
+color:#333333;
+font-weight: bold;
+}
+.vission_text{
+font-size:18px;
+color:#333333;
+text-align:justify;
+line-height: 20px;
+}
+.footer_bg{
+background:url(../image/footer-bg.jpg) repeat;
+height:250px;
+}
+.footer_head{
+font-size:20px;
+color:#FFBC33;
+
+}
+.footer_subhead{
+font-size:15px;
+color:#FF9900;
+
+}
+.footer_contet{
+font-size: 15px;
+color: #727171;
+
+}
+.footer_bottom{
+font-size: 14px;
+color: #514F4F;
+padding: 10px 0 10px 0;
+}
+.footer_link{
+font-size: 14px;
+color: #7A7373;
+text-decoration: none;
+}
+a.footer_link:hover{
+font-size:14px;
+color:#FF9900;
+text-decoration:none;
+}
+.page_head{
+font-size: 43px;
+color: #d7380d;
+font-weight: bold;
+}
+.teachers_list{
+font-size: 16px;
+font-weight: bold;
+color: #272525;
+border-bottom:#d4c9c9  solid 1px;
+}
+.teachers_list_rsult{
+font-size: 16px;
+color: #5f5a5a;
+border-bottom:#d4c9c9  solid 1px;
+}
+.list{
+font-size: 16px;
+color: #fff;
+font-weight: bolder;
+background: #201f1e;
+padding: 3px;
+}
+.button-head{
+font-size:18px;
+color:#333333;
+text-decoration:none;
+font-weight: bold;
+}
+a.button-head:hover{
+font-size:18px;	
+color:#990000;
+text-decoration:none;
+font-weight: bold;
+}
+.arw{
+font-size: 18px;
+color: #ff2d00;
+}
